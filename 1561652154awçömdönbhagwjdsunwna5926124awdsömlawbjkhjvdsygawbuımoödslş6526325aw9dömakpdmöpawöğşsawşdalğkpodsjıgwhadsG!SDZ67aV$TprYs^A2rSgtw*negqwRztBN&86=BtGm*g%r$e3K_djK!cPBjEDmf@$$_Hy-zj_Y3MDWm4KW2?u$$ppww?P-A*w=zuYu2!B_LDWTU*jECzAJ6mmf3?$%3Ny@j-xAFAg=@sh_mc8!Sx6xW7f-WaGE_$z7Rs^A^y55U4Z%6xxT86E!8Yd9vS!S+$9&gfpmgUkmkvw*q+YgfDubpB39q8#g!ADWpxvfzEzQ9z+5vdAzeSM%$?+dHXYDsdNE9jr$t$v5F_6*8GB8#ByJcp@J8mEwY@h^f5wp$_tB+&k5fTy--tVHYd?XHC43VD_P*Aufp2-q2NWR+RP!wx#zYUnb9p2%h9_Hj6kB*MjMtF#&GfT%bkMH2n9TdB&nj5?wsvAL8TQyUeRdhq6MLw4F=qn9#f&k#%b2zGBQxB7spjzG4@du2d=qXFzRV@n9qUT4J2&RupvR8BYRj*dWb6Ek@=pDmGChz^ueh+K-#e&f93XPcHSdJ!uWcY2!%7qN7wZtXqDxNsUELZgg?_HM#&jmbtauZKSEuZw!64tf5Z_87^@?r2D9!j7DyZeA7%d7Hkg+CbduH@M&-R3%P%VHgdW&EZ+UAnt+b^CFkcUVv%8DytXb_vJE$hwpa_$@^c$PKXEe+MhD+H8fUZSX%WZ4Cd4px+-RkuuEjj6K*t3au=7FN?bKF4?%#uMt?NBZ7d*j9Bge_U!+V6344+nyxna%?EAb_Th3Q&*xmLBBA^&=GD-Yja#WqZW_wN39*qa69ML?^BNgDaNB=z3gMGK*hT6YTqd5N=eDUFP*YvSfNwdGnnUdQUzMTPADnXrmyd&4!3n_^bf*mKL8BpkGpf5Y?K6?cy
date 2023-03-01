@@ -1,0 +1,54 @@
+--Password'u buraya yazın
+local PASSWORD = "hHt4s^DpD8e&W5_q%f@Cs3FxNe6-3UqYgH2bJ_Hk$r?w8_uN*Qf=CKN%KANBZW#^4bPsfAK*_UWewJEErZjcyXpUZn*#gyU3U^g5X6HquugGdMHSB*bGCrGMgSva=n3hW9w8N#NkWcyPurJ84X8Zwf9AsE%YZ97N%JK!tZ*k-NffZn7BynHsMUpGY=gN+BwQuY!8_sf5T?F279c+x^55x&GgGq8umyCkDK4YccsWCPf_sjRP?Ar$@+EV*VM2J4qazJXd%@kAF72#!p6fBjn5YEKzd@@R29_3G-FT=Wks*SqKFB7G?@hDHS6ggpX!FK3WFgw5W3A$AhQQVzL!ZkH2ezCa8&WkH8NfcHHfNqFrV^U%eZScvHMPDZ4-E2r5^F=4L4Jaxnb!2$G%wr3mBHnpPcYyR=KZ4Tjtf=R^faNJTptHHHcdAThZRpT-JDNB&QCTc#RtNu2Eb%hR#SkYXHj?ywWFLM_@gJSbFU=s!^!zmK@qySfw8uyd^376_M+nWrGj^%xggX$S*6A#SEhb_QVbq2+K+FnBV-=%k8=pd2ZzbAtMFcxRPMsCcWXy_S*VhB+HusGCaSt=DpcRYd=GCB&QZdwBVM@NuTu=%L_$y@uaBZ^nHW-pxcaEDxbj@Ypdqtznj=bv-F223H%nU$eH!ErS^J-Ts3bjRSfe#FHfw^FCrxq$newSjbwfEP$z-vD4fFHsLQbK7t^9g6hyhf!yz5g5@uqCT=m&ajqWkPPFL8bKyqzshW?bnQt+Bz-RWKgN6Ayh4g$Dkz?8MHx?#8dD$Dsv!7hMMdT9cCGQGe@5kF8bJ6rz^tM%Qwz_mdSD%K%-AMe*jRfkxTMCYGJMM7fdAzW=$nxhs=HkNA@T_6+@6EN9MdPHnem#&BXFa+=Txg!#Cb&_PsqLXnZeugFC+y?WPMkvNUJ^NZV-Umu+sTKn9f8QB+uPy3JgAnCEMVRyyqa4GJJea&tn-Z_M#VKc3hy5b=k%G&#ZBeavWfSk7*RfcuC2VP+JhN2y4u^jAXks8qEzR45f^ZFKG3^T5p^tqr%_&2eq=a!*ME*M28zfk8Zg7NEYa$8qR=EYG_47QJ46jcrCaGTRJW9mk&ye#_mR=4M7bQ?EP&^GESz^gS#&CyKLLfKLCZE!MP6XNfHWqY^3k^c_N9*ek_rK_P9kFA*%6=G!SDZ67aV$TprYs^A2rSgtw*negqwRztBN&86=BtGm*g%r$e3K_djK!cPBjEDmf@$$_Hy-zj_Y3MDWm4KW2?u$$ppww?P-A*w=zuYu2!B_LDWTU*jECzAJ6mmf3?$%3Ny@j-xAFAg=@sh_mc8!Sx6xW7f-WaGE_$z7Rs^A^y55U4Z%6xxT86E!8Yd9vS!S+$9&gfpmgUkmkvw*q+YgfDubpB39q8#g!ADWpxvfzEzQ9z+5vdAzeSM%$?+dHXYDsdNE9jr$t$v5F_6*8GB8#ByJcp@J8mEwY@h^f5wp$_tB+&k5fTy--tVHYd?XHC43VD_P*Aufp2-q2NWR+RP!wx#zYUnb9p2%h9_Hj6kB*MjMtF#&GfT%bkMH2n9TdB&nj5?wsvAL8TQyUeRdhq6MLw4F=qn9#f&k#%b2zGBQxB7spjzG4@du2d=qXFzRV@n9qUT4J2&RupvR8BYRj*dWb6Ek@=pDmGChz^ueh+K-#e&f93XPcHSdJ!uWcY2!%7qN7wZtXqDxNsUELZgg?_HM#&jmbtauZKSEuZw!64tf5Z_87^@?r2D9!j7DyZeA7%d7Hkg+CbduH@M&-R3%P%VHgdW&EZ+UAnt+b^CFkcUVv%8DytXb_vJE$hwpa_$@^c$PKXEe+MhD+H8fUZSX%WZ4Cd4px+-RkuuEjj6K*t3au=7FN?bKF4?%#uMt?NBZ7d*j9Bge_U!+V6344+nyxna%?EAb_Th3Q&*xmLBBA^&=GD-Yja#WqZW_wN39*qa69ML?^BNgDaNB=z3gMGK*hT6YTqd5N=eDUFP*YvSfNwdGnnUdQUzMTPADnXrmyd&4!3n_^bf*mKL8BpkGpf5Y?K6?cyH#+KtzSQdEFzU!nFjC8v?p+n8bSv=password"
+
+--GUI'nin oluşturulması
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+local Frame = Instance.new("Frame")
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Size = UDim2.new(0, 250, 0, 150)
+Frame.Position = UDim2.new(0.5, -125, 0.5, -75)
+Frame.Parent = ScreenGui
+
+local PasswordLabel = Instance.new("https://ckk.ai/rHt368KF : Şifre Alma Linki")
+PasswordLabel.BackgroundTransparency = 1
+PasswordLabel.Size = UDim2.new(1, 0, 0, 50)
+PasswordLabel.Position = UDim2.new(0, 0, 0, 0)
+PasswordLabel.Font = Enum.Font.SourceSans
+PasswordLabel.Text = "Enter Password"
+PasswordLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+PasswordLabel.TextSize = 20
+PasswordLabel.Parent = Frame
+
+local PasswordTextBox = Instance.new("TextBox")
+PasswordTextBox.BackgroundTransparency = 0.5
+PasswordTextBox.Size = UDim2.new(1, -20, 0, 50)
+PasswordTextBox.Position = UDim2.new(0, 10, 0, 50)
+PasswordTextBox.Font = Enum.Font.SourceSans
+PasswordTextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+PasswordTextBox.TextSize = 20
+PasswordTextBox.Parent = Frame
+
+local PasswordButton = Instance.new("TextButton")
+PasswordButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PasswordButton.Position = UDim2.new(0, 10, 0, 110)
+PasswordButton.Size = UDim2.new(1, -20, 0, 30)
+PasswordButton.Font = Enum.Font.SourceSans
+PasswordButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PasswordButton.TextSize = 20
+PasswordButton.Text = "Enter"
+PasswordButton.Parent = Frame
+
+--Password kontrolü
+PasswordButton.MouseButton1Click:Connect(function()
+    if PasswordTextBox.Text == PASSWORD then
+        ScreenGui:Destroy()
+        
+        --Buraya loadstring ile çalıştırılacak scriptin linkini yazabilirsiniz
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Z-Eso0111/randomlyyyyyyy/main/Cookiy_uıqwndkjawmop-mo872nmdfsalşp)uy92deçsa51412'))()
+    else
+        PasswordLabel.Text = "Wrong Password"
+    end
+end)

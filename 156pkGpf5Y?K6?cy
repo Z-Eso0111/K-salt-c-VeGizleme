@@ -47,7 +47,7 @@ PasswordButton.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
         
         --Buraya loadstring ile çalıştırılacak scriptin linkini yazabilirsiniz
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Z-Eso0111/randomlyyyyyyy/main/Cookiy_uıqwndkjawmop-mo872nmdfsalşp)uy92deçsa51412'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Z-Eso0111/randomlyyyyyyy/main/Cookiy_uıqwndkjawmop-mo872nmdfsalşpuy92deçsa51412'))()
     else
         PasswordLabel.Text = "Wrong Password"
     end
